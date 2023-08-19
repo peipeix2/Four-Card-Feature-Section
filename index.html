@@ -6,63 +6,70 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <title>Four card feature section</title>
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,300;0,500;0,700;1,500;1,700&family=Poppins:wght@200;400;600&display=swap"
+    rel="stylesheet">
 </head>
 <body>
   
-  <header>
-    <h2 class="sub-heading">Reliable, efficient delivery</h2>
-    <h2 class="heading">Powered by Technology</h2> 
+  <div class="container">
+    <header>
+      <h2 class="sub-heading">Reliable, efficient delivery</h2>
+      <h2 class="heading">Powered by Technology</h2> 
 
-    <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
-  </header>
+      <p class="header-intro">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+    </header>
 
-  <section class="row">
-    <div class="col">
-      <div class="card-container">
-        <div class="inner-card-supvervisor">
-          <h3 class="card-title">Supervisor</h3>
-          <p>Monitors activity to identify project roadblocks</p>
-          <img class="icon-supervisor" src="./images/icon-supervisor.svg">
+    <section class="row">
+      <div class="col">
+        <div class="card-container supervisor">
+          <div class="inner-card">
+            <h3 class="card-title">Supervisor</h3>
+            <p>Monitors activity to identify project roadblocks</p>
+            <img class="icon-supervisor" src="./images/icon-supervisor.svg">
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card-container">
-        <div class="inner-card-team-builder">
-          <h3 class="card-title">Team Builder</h3>
-          <p>Scans our talent network to create the optimal team for your project</p>
-          <img class="icon-team-bilder" src="./images/icon-team-builder.svg">
+      <div class="col">
+        <div class="card-container team-builder">
+          <div class="inner-card">
+            <h3 class="card-title">Team Builder</h3>
+            <p>Scans our talent network to create the optimal team for your project</p>
+            <img class="icon-team-bilder" src="./images/icon-team-builder.svg">
+          </div>
         </div>
-      </div>
-   
-
-      <div class="card-container">
-        <div class="inner-card-karma">
-          <h3 class="card-title">Karma</h3>
-          <p>Regularly evaluates our talent to ensure quality</p>
-          <img class="icon-karma" src="./images/icon-karma.svg">
-        </div>
-      </div>
-    </div>
     
-    <div class="col">
-      <div class="card-container">
-        <div class="inner-card-calculator">
-          <h3 class="card-title">Calculator</h3>
-          <p>Uses data from past projects to provide better delivery estimates</p>
-          <img class="icon-calculator" src="./images/icon-calculator.svg">
+
+        <div class="card-container karma">
+          <div class="inner-card">
+            <h3 class="card-title">Karma</h3>
+            <p>Regularly evaluates our talent to ensure quality</p>
+            <img class="icon-karma" src="./images/icon-karma.svg">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+      
+      <div class="col">
+        <div class="card-container calculator">
+          <div class="inner-card">
+            <h3 class="card-title">Calculator</h3>
+            <p>Uses data from past projects to provide better delivery estimates</p>
+            <img class="icon-calculator" src="./images/icon-calculator.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
   
   <footer>
     <p class="attribution">
@@ -70,5 +77,6 @@
       Coded by <a href="#">Your Name PEIPEI</a>.
     </p>
   </footer>
+  
 </body>
 </html>
