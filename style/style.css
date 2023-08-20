@@ -24,7 +24,7 @@ h2,h3,p {
 }
 
 header {
-  max-width: 85%;
+  min-width: 85%;
   margin: 0 auto;
 }
 
@@ -36,10 +36,12 @@ header {
 }
 
 .header-intro {
+  width: 80%;
   font-size: 15px;
   line-height: 25px;
   letter-spacing: 0.1px;
   opacity: 50%;
+  margin: 0 auto;
   margin-top: 16px;
   margin-bottom: 76px;
 }
