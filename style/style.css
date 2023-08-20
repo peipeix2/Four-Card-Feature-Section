@@ -148,10 +148,8 @@ img {
     display: flex;
     flex-direction: column;
     flex: 1;
-    /* padding: 0 1em; */
     margin: 0 1em;
     max-width: 350px;
-    /* border: 1px solid red; */
   }
 
   .card-container {
@@ -160,7 +158,6 @@ img {
   }
 
   .supervisor {
-    /* border: 1px solid blue; */
     margin: auto 0;
   }
 
