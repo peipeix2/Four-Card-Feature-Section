@@ -2,7 +2,9 @@
   box-sizing: border-box;
 }
 
-h2,h3,p {
+h2,
+h3,
+p {
   font-family: Poppins;
   color: #4D4F62;
 }
@@ -112,4 +114,57 @@ img {
   max-width: 22%;
   margin-top: auto;
   align-self: flex-end;
+}
+
+@media screen and (min-width: 860px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .header-intro {
+    width: 45%;
+  }
+
+  .row {
+    flex-direction: row;
+    margin-bottom: 2em;
+  }
+
+  .sub-heading,
+  .heading {
+    font-size: 36px;
+    letter-spacing: 0.25px;
+  }
+
+  .sub-heading {
+    margin-bottom: 0.2em;
+  }
+
+  .header-intro {
+    margin-bottom: 64px;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* padding: 0 1em; */
+    margin: 0 1em;
+    max-width: 350px;
+    /* border: 1px solid red; */
+  }
+
+  .card-container {
+    height: 250px;
+    width: 100%;
+  }
+
+  .supervisor {
+    /* border: 1px solid blue; */
+    margin: auto 0;
+  }
+
+  .calculator {
+    margin: auto 0;
+  }
 }
